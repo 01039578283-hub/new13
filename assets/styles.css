@@ -2251,6 +2251,80 @@ img { display: block; max-width: 100%; }
   font-weight: 900;
 }
 
+.academy-tuition-row {
+  margin-top: 4px;
+  padding: 16px;
+  border: 1px solid rgba(14, 170, 136, .2);
+  border-radius: 18px;
+  background:
+    radial-gradient(circle at 94% 8%, rgba(78, 163, 255, .16), transparent 34%),
+    linear-gradient(145deg, #f1fffb, #f5f9ff);
+}
+
+.academy-tuition-row dt {
+  color: #087e70;
+}
+
+.academy-tuition-row dd {
+  display: grid;
+  gap: 8px;
+}
+
+.academy-tuition-link,
+.academy-tuition-pending {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 46px;
+  padding: 0 15px;
+  border-radius: 14px;
+  font-size: 13px;
+  font-weight: 950;
+  letter-spacing: -.025em;
+}
+
+.academy-tuition-link {
+  color: #fff;
+  background: linear-gradient(135deg, #0eaa88, #2378e8);
+  box-shadow: 0 12px 25px rgba(29, 126, 184, .18);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.academy-tuition-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 30px rgba(29, 126, 184, .24);
+}
+
+.academy-tuition-link span {
+  display: grid;
+  width: 26px;
+  height: 26px;
+  place-items: center;
+  border-radius: 9px;
+  background: rgba(255, 255, 255, .18);
+  font-size: 15px;
+}
+
+.academy-tuition-note {
+  display: block;
+  color: #63748a;
+  font-size: 11px;
+  line-height: 1.55;
+  font-weight: 750;
+}
+
+.academy-tuition-row.is-pending {
+  border-color: #e1e8f1;
+  background: #f8fafc;
+}
+
+.academy-tuition-pending {
+  color: #64748b;
+  border: 1px dashed #cbd5e1;
+  background: #fff;
+}
+
 .academy-faq-card,
 .academy-review-card,
 .academy-local-links {
@@ -3856,6 +3930,19 @@ img { display: block; max-width: 100%; }
 
   .academy-aside-card dl > div:first-child { padding-top: 4px; }
   .academy-aside-card dl > div:last-child { padding-bottom: 2px; border-bottom: 0; }
+
+  .academy-aside-card dl > .academy-tuition-row {
+    margin-top: 6px;
+    padding: 14px;
+    border-bottom: 1px solid rgba(14, 170, 136, .2);
+    border-radius: 16px;
+  }
+
+  .academy-tuition-link,
+  .academy-tuition-pending {
+    min-height: 48px;
+    font-size: 13px;
+  }
 
   .academy-faq-list { gap: 9px; }
 
