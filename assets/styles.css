@@ -3595,3 +3595,304 @@ img { display: block; max-width: 100%; }
   }
   .academy-page-navigation .academy-support-links a::after { display: none; }
 }
+
+/* Local academy manuscript: mobile-first editorial reading layout */
+.academy-main-article {
+  counter-reset: academy-manuscript;
+  overflow: hidden;
+}
+
+.academy-summary-box {
+  position: relative;
+  margin-bottom: 20px;
+  padding: 26px 28px;
+  border-color: rgba(14, 170, 136, .22);
+  border-radius: 20px;
+  background:
+    radial-gradient(circle at 100% 0, rgba(45, 127, 240, .1), transparent 38%),
+    linear-gradient(135deg, #effcf8 0%, #f6fbff 100%);
+}
+
+.academy-summary-box strong {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  color: #087f68;
+  letter-spacing: -.025em;
+}
+
+.academy-summary-box strong::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #16bfa3;
+  box-shadow: 0 0 0 5px rgba(22, 191, 163, .12);
+}
+
+.academy-intro-answer {
+  position: relative;
+  margin: 0 0 8px;
+  padding: 24px 26px 26px;
+  border: 0;
+  border-bottom: 1px solid #e3ebf5;
+  border-radius: 0;
+  background: transparent;
+}
+
+.academy-intro-answer::before {
+  content: "";
+  position: absolute;
+  top: 28px;
+  bottom: 30px;
+  left: 0;
+  width: 4px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #16bfa3, #2b6cf6);
+}
+
+.academy-intro-answer p {
+  color: #263b58;
+  font-size: 17px;
+  line-height: 1.86;
+}
+
+.academy-prose-section {
+  counter-increment: academy-manuscript;
+  display: grid;
+  grid-template-columns: 46px minmax(0, 1fr);
+  column-gap: 18px;
+  margin: 0;
+  padding: 32px 2px;
+  border: 0;
+  border-bottom: 1px solid #e8eef6;
+  border-radius: 0;
+  background: transparent;
+}
+
+.academy-prose-section:last-child { border-bottom: 0; }
+
+.academy-prose-section::before {
+  content: counter(academy-manuscript, decimal-leading-zero);
+  position: static;
+  grid-column: 1;
+  grid-row: 1 / span 30;
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  color: #087f68;
+  background: #e6f8f3;
+  font-size: 12px;
+  font-weight: 950;
+  letter-spacing: .04em;
+}
+
+.academy-prose-section:nth-of-type(even)::before {
+  color: #225fc7;
+  background: #eaf2ff;
+}
+
+.academy-prose-section h2,
+.academy-prose-section p {
+  grid-column: 2;
+  min-width: 0;
+}
+
+.academy-prose-section h2 {
+  margin: 2px 0 15px;
+  text-wrap: balance;
+}
+
+.academy-prose-section p {
+  max-width: 74ch;
+  font-weight: 650;
+  text-wrap: pretty;
+}
+
+.academy-prose-section h2 + p {
+  color: #344862;
+  font-weight: 720;
+}
+
+.academy-faq-item summary {
+  position: relative;
+  padding-right: 52px;
+}
+
+.academy-faq-item summary::after {
+  content: "+";
+  position: absolute;
+  top: 50%;
+  right: 18px;
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  color: #087f68;
+  background: #e4f8f3;
+  font-size: 18px;
+  line-height: 1;
+  transform: translateY(-50%);
+}
+
+.academy-faq-item[open] summary::after { content: "−"; }
+
+.academy-review-item {
+  position: relative;
+  padding: 24px 24px 24px 54px;
+  border: 1px solid #e2ebf5;
+  background: linear-gradient(145deg, #fbfdff, #f5f9ff);
+}
+
+.academy-review-item::before {
+  content: "“";
+  position: absolute;
+  top: 13px;
+  left: 20px;
+  color: #16a88c;
+  font-family: Georgia, serif;
+  font-size: 42px;
+  line-height: 1;
+  opacity: .9;
+}
+
+@media (max-width: 640px) {
+  .academy-content-layout { gap: 16px; }
+
+  .academy-main-article {
+    padding: 18px;
+    border-radius: 20px;
+    box-shadow: 0 14px 36px rgba(23, 19, 95, .055);
+  }
+
+  .academy-summary-box {
+    margin-bottom: 14px;
+    padding: 19px 18px 20px;
+    border-radius: 17px;
+  }
+
+  .academy-summary-box strong {
+    margin-bottom: 9px;
+    font-size: 13px;
+  }
+
+  .academy-summary-box p {
+    margin: 0;
+    color: #354b63;
+    font-size: 14px;
+    line-height: 1.75;
+    font-weight: 670;
+  }
+
+  .academy-intro-answer {
+    margin-bottom: 0;
+    padding: 18px 4px 22px 16px;
+  }
+
+  .academy-intro-answer::before {
+    top: 21px;
+    bottom: 25px;
+    width: 3px;
+  }
+
+  .academy-intro-answer p {
+    margin: 0;
+    color: #263b58;
+    font-size: 15px;
+    line-height: 1.78;
+    font-weight: 720;
+  }
+
+  .academy-prose-section {
+    grid-template-columns: 34px minmax(0, 1fr);
+    column-gap: 11px;
+    padding: 26px 0;
+  }
+
+  .academy-prose-section::before {
+    width: 32px;
+    height: 32px;
+    border-radius: 11px;
+    font-size: 10px;
+  }
+
+  .academy-main-article .academy-prose-section h2 {
+    margin: 1px 0 13px;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: -.045em;
+  }
+
+  .academy-main-article .academy-prose-section p {
+    margin-bottom: 13px;
+    color: #526176;
+    font-size: 14.5px;
+    line-height: 1.78;
+    font-weight: 620;
+  }
+
+  .academy-main-article .academy-prose-section h2 + p {
+    color: #354861;
+    font-weight: 690;
+  }
+
+  .academy-aside-card,
+  .academy-faq-card,
+  .academy-review-card {
+    padding: 19px;
+    border-radius: 20px;
+  }
+
+  .academy-aside-card dl { gap: 0; }
+
+  .academy-aside-card dl > div {
+    padding: 13px 0;
+    border-bottom: 1px solid #e8eef6;
+  }
+
+  .academy-aside-card dl > div:first-child { padding-top: 4px; }
+  .academy-aside-card dl > div:last-child { padding-bottom: 2px; border-bottom: 0; }
+
+  .academy-faq-list { gap: 9px; }
+
+  .academy-faq-item { border-radius: 15px; }
+
+  .academy-faq-item summary {
+    padding: 15px 45px 15px 15px;
+    font-size: 14px;
+    line-height: 1.55;
+  }
+
+  .academy-faq-item summary::after {
+    right: 13px;
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+  }
+
+  .academy-faq-item p {
+    padding: 0 15px 16px;
+    font-size: 13.5px;
+    line-height: 1.72;
+  }
+
+  .academy-review-list { gap: 10px; }
+
+  .academy-review-item {
+    padding: 19px 17px 19px 43px;
+    border-radius: 17px;
+    font-size: 13.5px;
+    line-height: 1.75;
+    font-weight: 650;
+  }
+
+  .academy-review-item::before {
+    top: 12px;
+    left: 14px;
+    font-size: 34px;
+  }
+}
