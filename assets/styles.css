@@ -3983,3 +3983,85 @@ img { display: block; max-width: 100%; }
     font-size: 34px;
   }
 }
+
+/* 지역별 학원 페이지: 첫 화면에서 상담 판단 정보를 바로 확인하도록 정리 */
+.academy-quick-info-section {
+  padding: 30px 0 6px;
+}
+
+.academy-quick-info-layout {
+  display: grid;
+  gap: 16px;
+}
+
+.academy-summary-box.academy-top-answer {
+  margin: 0;
+  padding: 24px 28px;
+}
+
+.academy-quick-info-section .academy-aside-card {
+  position: static;
+  top: auto;
+  padding: 24px 28px;
+}
+
+.academy-quick-info-section .academy-aside-card dl {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.academy-quick-info-section .academy-aside-card dl > div {
+  min-width: 0;
+  padding: 14px 16px;
+  border: 1px solid #e5edf6;
+  border-radius: 16px;
+  background: #fbfdff;
+}
+
+.academy-quick-info-section .academy-aside-card dl > .academy-tuition-row {
+  grid-column: 1 / -1;
+  margin: 0;
+  border-color: rgba(14, 170, 136, .2);
+}
+
+.academy-content-layout.academy-content-single {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+@media (max-width: 900px) {
+  .academy-quick-info-section .academy-aside-card dl {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .academy-quick-info-section {
+    padding: 18px 0 4px;
+  }
+
+  .academy-quick-info-layout {
+    gap: 12px;
+  }
+
+  .academy-summary-box.academy-top-answer,
+  .academy-quick-info-section .academy-aside-card {
+    padding: 18px;
+    border-radius: 20px;
+  }
+
+  .academy-quick-info-section .academy-aside-card dl {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .academy-quick-info-section .academy-aside-card dl > div {
+    padding: 12px 13px;
+    border-bottom: 1px solid #e5edf6;
+    border-radius: 14px;
+  }
+
+  .academy-quick-info-section .academy-aside-card dl > .academy-tuition-row {
+    grid-column: auto;
+    padding: 14px;
+  }
+}
