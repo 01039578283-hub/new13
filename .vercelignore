@@ -3,3 +3,7 @@ node_modules
 tmp
 scripts/__pycache__
 *.pyc
+tools/
+.vercel
+.git
+.env*
