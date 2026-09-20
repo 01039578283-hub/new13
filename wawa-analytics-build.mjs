@@ -13,8 +13,13 @@ const errors=[];
 const allowed=f=>!f.split(/[\\/]/).some(p=>p.startsWith('.')||skip.has(p));
 async function files() {
   if(root===process.cwd() && fs.existsSync(path.join(root,'.git'))) {
-    const names=execFileSync('git',['ls-files','-z','--','*.html'],{cwd:root,maxBuffer:32*1024*1024,encoding:'utf8'}).split('\0').filter(Boolean);
-    return names.filter(allowed).map(f=>path.join(root,f));
+    try {
+      const names=execFileSync('git',['ls-files','-z','--','*.html'],{cwd:root,maxBuffer:32*1024*1024,encoding:'utf8',stdio:['ignore','pipe','pipe']}).split('\0').filter(Boolean);
+      return names.filter(allowed).map(f=>path.join(root,f));
+    } catch {
+      // Vercel may leave an empty .git directory after applying .vercelignore.
+      // In an exported build, inspect the remaining deployment files directly.
+    }
   }
   const queue=[root], result=[];
   while(queue.length) {
