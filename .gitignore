@@ -6,3 +6,5 @@ tools/__pycache__/
 tools/reports/*
 !tools/reports/title-suffix-audit.json
 !tools/reports/title-suffix-local-verification.json
+public/
+.smallclass-public-output.json

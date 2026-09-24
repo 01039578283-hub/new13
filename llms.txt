@@ -19,3 +19,45 @@
 - [수학학원 지역 안내](https://xn--9l4b2jy4h4wan0chw4b.com/%EC%A0%84%EA%B5%AD%ED%95%99%EC%9B%90/%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/): 371개 동네별 초등·중등·고등 수학 진단, 학교 진도 반영과 오답 재학습 안내
 - [영어학원 지역 안내](https://xn--9l4b2jy4h4wan0chw4b.com/%EC%A0%84%EA%B5%AD%ED%95%99%EC%9B%90/%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/): 371개 동네별 초등·중등·고등 영어 진단, 학교 진도 반영과 오답 재학습 안내
 - [영수학원 지역 안내](https://xn--9l4b2jy4h4wan0chw4b.com/%EC%A0%84%EA%B5%AD%ED%95%99%EC%9B%90/%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/): 371개 동네별 초등·중등·고등 영어·수학 진단, 학교 진도 반영과 오답 재학습 안내
+
+## 지점안내 — 2026-09-24
+
+실제 지점 193곳을 16개 지역으로 구분합니다. 과목별 개설 학년, 등록명·주소, 교육비 자료를 제공합니다. 반별 정원은 자료에 없어 확정 숫자를 안내하지 않습니다. 지역 공통 교육비 참고표와 지점별 안내 금액은 구분합니다.
+
+- [전국 지점안내](https://xn--9l4b2jy4h4wan0chw4b.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/)
+- [서울 지점안내](https://xn--9l4b2jy4h4wan0chw4b.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%9C%EC%9A%B8/)
+- [경기 지점안내](https://xn--9l4b2jy4h4wan0chw4b.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EA%B2%BD%EA%B8%B0/)
+- [인천 지점안내](https://xn--9l4b2jy4h4wan0chw4b.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%9D%B8%EC%B2%9C/)
+- [강원 지점안내](https://xn--9l4b2jy4h4wan0chw4b.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EA%B0%95%EC%9B%90/)
+- [대전 지점안내](https://xn--9l4b2jy4h4wan0chw4b.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EB%8C%80%EC%A0%84/)
+- [세종 지점안내](https://xn--9l4b2jy4h4wan0chw4b.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%B8%EC%A2%85/)
+- [충북 지점안내](https://xn--9l4b2jy4h4wan0chw4b.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%B6%A9%EB%B6%81/)
+- [충남 지점안내](https://xn--9l4b2jy4h4wan0chw4b.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%B6%A9%EB%82%A8/)
+- [대구 지점안내](https://xn--9l4b2jy4h4wan0chw4b.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EB%8C%80%EA%B5%AC/)
+- [경북 지점안내](https://xn--9l4b2jy4h4wan0chw4b.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EA%B2%BD%EB%B6%81/)
+- [울산 지점안내](https://xn--9l4b2jy4h4wan0chw4b.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%9A%B8%EC%82%B0/)
+- [부산 지점안내](https://xn--9l4b2jy4h4wan0chw4b.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EB%B6%80%EC%82%B0/)
+- [경남 지점안내](https://xn--9l4b2jy4h4wan0chw4b.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EA%B2%BD%EB%82%A8/)
+- [광주 지점안내](https://xn--9l4b2jy4h4wan0chw4b.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EA%B4%91%EC%A3%BC/)
+- [전북 지점안내](https://xn--9l4b2jy4h4wan0chw4b.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%A0%84%EB%B6%81/)
+- [제주 지점안내](https://xn--9l4b2jy4h4wan0chw4b.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%A0%9C%EC%A3%BC/)
+
+<!-- student-guides:start -->
+## 동네별 학생 학습 안내
+
+371개 동네에 초등학생·중학생·고등학생 안내 1,113개를 제공합니다. 경로는 /지점안내/{지역}/{실제지점}/{동네}{학생단계}학원/ 입니다. 실제 개설 학년과 학습 제안은 구분합니다.
+
+- [명일동 초등학생학원](https://xn--9l4b2jy4h4wan0chw4b.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%9C%EC%9A%B8/%EB%AA%85%EC%9D%BC%EC%A0%90/%EB%AA%85%EC%9D%BC%EB%8F%99%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%ED%95%99%EC%9B%90/)
+- [명일동 중학생학원](https://xn--9l4b2jy4h4wan0chw4b.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%9C%EC%9A%B8/%EB%AA%85%EC%9D%BC%EC%A0%90/%EB%AA%85%EC%9D%BC%EB%8F%99%EC%A4%91%ED%95%99%EC%83%9D%ED%95%99%EC%9B%90/)
+- [명일동 고등학생학원](https://xn--9l4b2jy4h4wan0chw4b.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%9C%EC%9A%B8/%EB%AA%85%EC%9D%BC%EC%A0%90/%EB%AA%85%EC%9D%BC%EB%8F%99%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%ED%95%99%EC%9B%90/)
+<!-- student-guides:end -->
+
+<!-- subject-guides:start -->
+## 학생 단계 아래 과목별 학습 안내
+
+371개 동네의 학생 단계별 안내 아래 수학·영어·영수 하위 안내 3,339개를 제공합니다. 경로는 /지점안내/{지역}/{실제지점}/{동네}{학생단계}학원/{과목}/ 입니다. 학습 제안과 실제 개설 학년은 구분합니다. 지역 공통 교육비는 지점 확정 가격이 아닙니다. 전체 URL은 sitemap.xml에서 확인할 수 있습니다.
+
+- [명일동 초등학생 수학학원](https://xn--9l4b2jy4h4wan0chw4b.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%9C%EC%9A%B8/%EB%AA%85%EC%9D%BC%EC%A0%90/%EB%AA%85%EC%9D%BC%EB%8F%99%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%ED%95%99%EC%9B%90/%EC%88%98%ED%95%99/)
+- [명일동 초등학생 영어학원](https://xn--9l4b2jy4h4wan0chw4b.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%9C%EC%9A%B8/%EB%AA%85%EC%9D%BC%EC%A0%90/%EB%AA%85%EC%9D%BC%EB%8F%99%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%ED%95%99%EC%9B%90/%EC%98%81%EC%96%B4/)
+- [명일동 초등학생 영수학원](https://xn--9l4b2jy4h4wan0chw4b.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%9C%EC%9A%B8/%EB%AA%85%EC%9D%BC%EC%A0%90/%EB%AA%85%EC%9D%BC%EB%8F%99%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%ED%95%99%EC%9B%90/%EC%98%81%EC%88%98/)
+<!-- subject-guides:end -->

@@ -1,0 +1,8 @@
+/* Keep student guides in the existing navy/mint design; preserve readable mobile copy. */
+.student-guide-page .sc-block>p{max-width:850px}
+.sg-steps{counter-reset:study;list-style:none;padding:0;margin:24px 0;display:grid;gap:14px;max-width:860px}
+.sg-steps li{counter-increment:study;position:relative;padding:18px 20px 18px 62px;border:1px solid var(--line);border-radius:14px;background:#f8fafc;min-width:0}
+.sg-steps li::before{content:counter(study);position:absolute;left:18px;top:18px;background:var(--navy);color:white;border-radius:50%;width:28px;height:28px;display:grid;place-items:center;font-size:15px;font-weight:700;line-height:1}
+.sg-school-list{display:flex;flex-wrap:wrap;gap:10px 22px;padding-left:22px;margin:20px 0}
+.student-guide-page .sc-course-list{margin-bottom:20px}
+@media(max-width:680px){.student-guide-page .sc-hero h1{font-size:29px}.student-guide-page .sc-block h2{font-size:23px}.sg-steps li{padding:16px 16px 16px 57px}.sg-steps li::before{left:16px;top:17px}.sg-school-list{display:block}.sg-school-list li{margin:8px 0}}
