@@ -1,0 +1,18 @@
+/* Scoped to the new combined-subject guides; existing page layouts stay intact. */
+.combined-guide-page .sc-hero .sc-answer{max-width:960px}
+.combined-guide-page .sc-block{padding-top:38px;padding-bottom:38px}
+.combined-guide-page .sc-block>p,.combined-guide-page .combined-steps{max-width:900px;word-break:keep-all;overflow-wrap:anywhere}
+.combined-example{max-width:900px;background:#f2f5ff;border:1px solid #dfe5fa;border-radius:16px;padding:22px;margin-top:20px}
+.combined-guide-page .combined-steps{padding-left:28px}
+.combined-guide-page .combined-steps li{padding:6px 0 6px 4px}
+.combined-guide-page .sc-course-list li{min-width:0}
+.combined-guide-page .sc-media figure figcaption{position:static!important}
+@media(max-width:640px){
+ .combined-guide-page .sc-hero{padding:28px 0}
+ .combined-guide-page .sc-hero h1{font-size:29px;line-height:1.4;word-break:keep-all;overflow-wrap:anywhere}
+ .combined-guide-page .sc-lead,.combined-guide-page .sc-answer,.combined-guide-page .sc-block{font-size:16px;line-height:1.85}
+ .combined-guide-page .sc-answer{padding:18px}
+ .combined-guide-page .sc-block{padding-top:28px;padding-bottom:28px}
+ .combined-guide-page .sc-block h2{font-size:23px;line-height:1.45}
+ .combined-example{padding:18px}
+}
