@@ -8,6 +8,16 @@ const output=path.join(root,'.public-release');
 const manifest=JSON.parse(fs.readFileSync(path.join(root,'release-public-manifest.json'),'utf8'));
 const files=Object.entries(manifest.files);
 const selected=new Set(files.map(([name])=>name));
+const digest=bytes=>createHash('sha256').update(bytes).digest('hex');
+function reviewedBytes(bytes,hash,name) {
+  if(digest(bytes)===hash)return true;
+  // Git converts working-tree CRLF to LF on Linux. Accept only that reversible
+  // text-file representation change; binary assets still require exact bytes.
+  if(!/\.(?:html|css|js|json|xml|txt|svg|webmanifest)$/i.test(name))return false;
+  const lf=bytes.toString('utf8').replaceAll('\r\n','\n');
+  if(manifest.textSha256?.[name] && digest(Buffer.from(lf))===manifest.textSha256[name])return true;
+  return digest(Buffer.from(lf))===hash||digest(Buffer.from(lf.replaceAll('\n','\r\n')))===hash;
+}
 if(fs.existsSync(output)) {
   function inspect(dir) {
     for(const entry of fs.readdirSync(dir,{withFileTypes:true})) {
@@ -27,7 +37,7 @@ await Promise.all(Array.from({length:12},async()=>{
     if(!input.startsWith(root+path.sep)||!dest.startsWith(output+path.sep)||name.split('/').some(p=>p.startsWith('.')))throw Error('Unsafe public path '+name);
     if(fs.lstatSync(input).isSymbolicLink())throw Error('Source symlink '+name);
     const bytes=await fs.promises.readFile(input);
-    if(createHash('sha256').update(bytes).digest('hex')!==hash)throw Error('Reviewed file changed; refresh release manifest: '+name);
+    if(!reviewedBytes(bytes,hash,name))throw Error('Reviewed file changed; refresh release manifest: '+name);
     await fs.promises.mkdir(path.dirname(dest),{recursive:true});
     await fs.promises.writeFile(dest,bytes);
   }
