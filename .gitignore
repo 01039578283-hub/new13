@@ -8,3 +8,9 @@ tools/reports/*
 !tools/reports/title-suffix-local-verification.json
 public/
 .smallclass-public-output.json
+
+# Isolated public release: never commit derived output or private inputs.
+.public-release/
+node_modules/
+.env*
+tools/data/

@@ -1,6 +1,6 @@
 {
   "cleanUrls": true,
   "trailingSlash": true,
-  "buildCommand": "node build-public.mjs && node wawa-analytics-build.mjs wawa-14 public && node seo-descriptions.mjs --root=public",
-  "outputDirectory": "public"
+  "buildCommand": "node release-public-build.mjs && node wawa-analytics-build.mjs wawa-14 .public-release && node seo-descriptions.mjs --root=.public-release",
+  "outputDirectory": ".public-release"
 }
