@@ -3443,7 +3443,7 @@
     "index.html": "a147c641b10b61630c571322deec329ab1bbeb624fee978d2cf0f4ececccb8cc",
     "llms.txt": "e52b8f7eddb2a2e1c363dcd84c9bb51cdedeeda721d6ca0b60d421e4ed086e6c",
     "robots.txt": "463e75eb58f20dc43c0b1a673531128450b7487e98d66738c1757274a61d5667",
-    "rss.xml": "488992f2854bb52e0169f8205b4a659d675a8ff7c3e140a751e8f2894585150e",
+    "rss.xml": "d12e208e59a1ddd119a5b2afce9941cc892a8376c511347d79588596e052dfc1",
     "sitemap.xml": "e8156d3f9eff3e664359cb8ab93458b41b21493dcfb52dc52d36801a9fd9d5c9",
     "교육자료실/2학기-집중-환경/index.html": "3ba13c840fe6db756465b4a511a10c77c1bfc4797dea36ae9a08faa6d272378a",
     "교육자료실/2학기-학습-계획/index.html": "83c2cbb7716eb999694946d41fe801e56ad3db0632691c6ded4ba2bc1b873916",
@@ -12722,7 +12722,23 @@
     "교육자료실/과목연계-개념-조건/index.html": "38aeb4a3ea91ad526f41a00673187204aacce6717b8b48cf718104904d8c26f9",
     "교육자료실/개인-공부리듬-관찰/index.html": "57c845a0250f242eefc5954b57790c9edc10d1fe250cb055ee8091d3b5f57fed",
     "교육자료실/수학-계산속도-정확도/index.html": "4c701bb32d663a2c71348348f43b5f69fa5380c2f8be9e158296d4a09cd131fb",
-    "교육자료실/개학전-공부준비-점검/index.html": "d832b2a4f2fd25c2f321c50c2eca78dc444e79e3dedb18f51428e4d6c7151ad3"
+    "교육자료실/개학전-공부준비-점검/index.html": "d832b2a4f2fd25c2f321c50c2eca78dc444e79e3dedb18f51428e4d6c7151ad3",
+    "assets/quality/8a9a8231ff66efc42663.css": "8a9a8231ff66efc426632598cd357826aad98a0b41d01a444890f6e25faf6470",
+    "assets/media-quality/937d96d7df334da18bbe.webp": "937d96d7df334da18bbef28145991400be8c949466bb499b98129d229f8b3eb8",
+    "assets/media-quality/135ea029232d36192fde.webp": "135ea029232d36192fde1e1911ca44b9af822682e7be2f6406f6440a6c8c46ea",
+    "assets/media-quality/abaa38105b83bb878bca.webp": "abaa38105b83bb878bcab277739acd260b268f4ac2264714cd5fbfa5467b53b2",
+    "assets/media-quality/9d1f0ce85e9982d94e8f.webp": "9d1f0ce85e9982d94e8f0c827235348dfebd6e53ca5574d598041e41f06bd6a4",
+    "assets/media-quality/734d23c2c224dceb890e.webp": "734d23c2c224dceb890e2338f9fab8c02de2661747357862633c832fd16b797a",
+    "assets/media-quality/e6ba228bd48ea0c9632f.webp": "e6ba228bd48ea0c9632f3e1bc0a3e2a9e1bbdd5fa1e11eb8dc977c9d81940ec5",
+    "assets/media-quality/198a00c16b8f45e36fde.webp": "198a00c16b8f45e36fde3083ae7d75e4ba046144b828e1b05d25d6aa27487c41",
+    "assets/media-quality/a79b64257276a4962d9c.webp": "a79b64257276a4962d9c689a46e5e2a086eb4c7c75047ca5fd2e7dcd7c746972",
+    "assets/media-quality/8161256695b7204cb062.webp": "8161256695b7204cb0625dd210e6f4683c9ea6d4e27f6825672904af221362e4",
+    "assets/media-quality/5c1d330eb6897b83b683.webp": "5c1d330eb6897b83b6834239d707bbb624961339d25c8b2d831b53e83945dc63",
+    "assets/media-quality/d024fd2a76a892db16a5.webp": "d024fd2a76a892db16a5c8ff4a0602c1887f8d6f096ed058f9017872ceae4223",
+    "assets/media-quality/cb32007f51ebf1946d75.webp": "cb32007f51ebf1946d75739643f5cb12f30ef6fdfd297f2efe5d37ef6bc78988",
+    "assets/media-quality/7aa6d387eb9884cbe99e.webp": "7aa6d387eb9884cbe99e6996b6bd5466ac82c722daa789b46693b20344e7e434",
+    "assets/media-quality/5d451a7f1cc66990cfb0.webp": "5d451a7f1cc66990cfb0332c79d72391fa5370276c8f5dfcb9ecf79a3efdf42e",
+    "assets/quality/58d7943ee9912e68c34a.js": "58d7943ee9912e68c34a843471af33cbdfa5820cfa458e0959635e18f8fba80a"
   },
   "textSha256": {
     "학습가이드/index.html": "bb21a9fd7228aaa36a0d1ba9a23500785a698b6bb3a99f5ab3479e0f2d1b553e",
@@ -12781,7 +12797,7 @@
     "전국학원/index.html": "ef6a2d6197d5deeec39cfe800a250696e1bbf2c935f0b7900fe9541a0f93f7da",
     "지점안내/index.html": "906cbb9e3234c13a13f777b7f84c88b19e81183f1a9114ed3fbe2b41d8e5d7ef",
     "sitemap.xml": "e8156d3f9eff3e664359cb8ab93458b41b21493dcfb52dc52d36801a9fd9d5c9",
-    "rss.xml": "488992f2854bb52e0169f8205b4a659d675a8ff7c3e140a751e8f2894585150e",
+    "rss.xml": "d12e208e59a1ddd119a5b2afce9941cc892a8376c511347d79588596e052dfc1",
     "assets/learning-library.css": "802883559a6046855f6147a6063e2ad725fca9549be401757697e258b439ea81",
     "assets/learning-library.js": "a6aaedb49c6a307c14a49c518d467f677cfd7334578f33b436e53e7b040b600f",
     "선생님찾기/치평점/index.html": "ae4ba5915aa5808eb342f1446845592f1803d65e71727cc633947c97c0445ac5",
@@ -21924,7 +21940,9 @@
     "교육자료실/과목연계-개념-조건/index.html": "38aeb4a3ea91ad526f41a00673187204aacce6717b8b48cf718104904d8c26f9",
     "교육자료실/개인-공부리듬-관찰/index.html": "57c845a0250f242eefc5954b57790c9edc10d1fe250cb055ee8091d3b5f57fed",
     "교육자료실/수학-계산속도-정확도/index.html": "4c701bb32d663a2c71348348f43b5f69fa5380c2f8be9e158296d4a09cd131fb",
-    "교육자료실/개학전-공부준비-점검/index.html": "d832b2a4f2fd25c2f321c50c2eca78dc444e79e3dedb18f51428e4d6c7151ad3"
+    "교육자료실/개학전-공부준비-점검/index.html": "d832b2a4f2fd25c2f321c50c2eca78dc444e79e3dedb18f51428e4d6c7151ad3",
+    "assets/quality/8a9a8231ff66efc42663.css": "8a9a8231ff66efc426632598cd357826aad98a0b41d01a444890f6e25faf6470",
+    "assets/quality/58d7943ee9912e68c34a.js": "9749bba06ebc39b7ff5138f3a1818ce03084bef571f0af50dc54f10d845c74cc"
   },
   "learningGuides": {
     "reviewedOn": "2026-10-04",
@@ -21977,5 +21995,14 @@
     "managementAreas": 3,
     "referenceImages": 2,
     "publicFilesAdded": 3
+  },
+  "crawlQuality": {
+    "reviewedOn": "2026-10-07",
+    "verifiedBranches": 193,
+    "losslessVariants": 15,
+    "originalImagesPreserved": true,
+    "posterSplittingApplied": false,
+    "incompleteHeadingsRepaired": 37,
+    "cacheKeys": "Final asset content SHA-256; query-versioned cache and hashed new media; HTML revalidation preserved."
   }
 }
