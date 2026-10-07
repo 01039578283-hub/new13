@@ -1,7 +1,7 @@
 {
   "cleanUrls": true,
   "trailingSlash": true,
-  "buildCommand": "node release-public-build.mjs && node wawa-analytics-build.mjs wawa-14 .public-release && node seo-descriptions.mjs --root=.public-release && node image-order-build.mjs && node crawl-quality-build.mjs",
+  "buildCommand": "node favicon-build.mjs",
   "outputDirectory": ".public-release",
   "headers": [
     {

@@ -1,0 +1,9 @@
+{
+  "domain": "소수정예학원.com",
+  "outputDirectory": ".public-release",
+  "previousBuildCommand": "node release-public-build.mjs && node wawa-analytics-build.mjs wawa-14 .public-release && node seo-descriptions.mjs --root=.public-release && node image-order-build.mjs && node crawl-quality-build.mjs",
+  "assets": {
+    "assets/site-favicon.png": "235da68e7d001805d925deb29e0f109cf4e626f8f8097cc14a3cfacbc301ff33",
+    "assets/site-apple-touch-icon.png": "a041ce6e37369568f5ea0f24070c0b2a3a6067001e8619ad7b2c92d822b73477"
+  }
+}
