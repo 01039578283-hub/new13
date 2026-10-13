@@ -1,7 +1,7 @@
 {
   "cleanUrls": true,
   "trailingSlash": true,
-  "buildCommand": "node favicon-build.mjs && node branch-thumbnail-build.mjs && node search-discovery-build.mjs",
+  "buildCommand": "node favicon-build.mjs && node branch-thumbnail-build.mjs && node search-discovery-build.mjs && node content-evidence-build.mjs",
   "outputDirectory": ".public-release",
   "headers": [
     {
