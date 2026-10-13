@@ -8,6 +8,12 @@ const output=path.join(root,'.public-release');
 const manifest=JSON.parse(fs.readFileSync(path.join(root,'release-public-manifest.json'),'utf8'));
 const files=Object.entries(manifest.files);
 const selected=new Set(files.map(([name])=>name));
+// Only these reviewed generated sitemap paths may remain from an earlier build.
+const discoveryConfig=JSON.parse(fs.readFileSync(path.join(root,'search-discovery-config.json'),'utf8'));
+for(const name of discoveryConfig.generatedFiles){
+  if(!/^sitemaps\/[a-z0-9-]+\.xml$/.test(name))throw Error('Unsafe generated path '+name);
+  selected.add(name);
+}
 const digest=bytes=>createHash('sha256').update(bytes).digest('hex');
 function reviewedBytes(bytes,hash,name) {
   if(digest(bytes)===hash)return true;
