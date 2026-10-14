@@ -38,5 +38,87 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%ED%9B%84%EA%B3%A1%EC%A0%90%28W\\+%29/",
+      "destination": "https://xn--9l4b2jy4h4wan0chw4b.com/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%ED%9B%84%EA%B3%A1%EC%A0%90%28W%2B%29/",
+      "permanent": true
+    },
+    {
+      "source": "/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%ED%9B%84%EA%B3%A1%EC%A0%90\\(W\\+\\)/",
+      "destination": "https://xn--9l4b2jy4h4wan0chw4b.com/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%ED%9B%84%EA%B3%A1%EC%A0%90%28W%2B%29/",
+      "permanent": true
+    },
+    {
+      "source": "/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EB%8B%A4%EC%82%B0%EC%A0%90%28W\\+%29/",
+      "destination": "https://xn--9l4b2jy4h4wan0chw4b.com/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EB%8B%A4%EC%82%B0%EC%A0%90%28W%2B%29/",
+      "permanent": true
+    },
+    {
+      "source": "/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EB%8B%A4%EC%82%B0%EC%A0%90\\(W\\+\\)/",
+      "destination": "https://xn--9l4b2jy4h4wan0chw4b.com/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EB%8B%A4%EC%82%B0%EC%A0%90%28W%2B%29/",
+      "permanent": true
+    },
+    {
+      "source": "/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%ED%99%94%EC%A0%95%EC%A0%90%28W\\+%29/",
+      "destination": "https://xn--9l4b2jy4h4wan0chw4b.com/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%ED%99%94%EC%A0%95%EC%A0%90%28W%2B%29/",
+      "permanent": true
+    },
+    {
+      "source": "/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%ED%99%94%EC%A0%95%EC%A0%90\\(W\\+\\)/",
+      "destination": "https://xn--9l4b2jy4h4wan0chw4b.com/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%ED%99%94%EC%A0%95%EC%A0%90%28W%2B%29/",
+      "permanent": true
+    },
+    {
+      "source": "/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EC%A4%91%EB%8F%99%EC%A0%90%28W\\+%29/",
+      "destination": "https://xn--9l4b2jy4h4wan0chw4b.com/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EC%A4%91%EB%8F%99%EC%A0%90%28W%2B%29/",
+      "permanent": true
+    },
+    {
+      "source": "/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EC%A4%91%EB%8F%99%EC%A0%90\\(W\\+\\)/",
+      "destination": "https://xn--9l4b2jy4h4wan0chw4b.com/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EC%A4%91%EB%8F%99%EC%A0%90%28W%2B%29/",
+      "permanent": true
+    },
+    {
+      "source": "/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EB%91%94%EC%82%B0%EC%A0%90%28W\\+%29/",
+      "destination": "https://xn--9l4b2jy4h4wan0chw4b.com/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EB%91%94%EC%82%B0%EC%A0%90%28W%2B%29/",
+      "permanent": true
+    },
+    {
+      "source": "/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EB%91%94%EC%82%B0%EC%A0%90\\(W\\+\\)/",
+      "destination": "https://xn--9l4b2jy4h4wan0chw4b.com/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EB%91%94%EC%82%B0%EC%A0%90%28W%2B%29/",
+      "permanent": true
+    },
+    {
+      "source": "/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EC%86%A1%EB%8F%84%EC%A0%90%28W\\+%29/",
+      "destination": "https://xn--9l4b2jy4h4wan0chw4b.com/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EC%86%A1%EB%8F%84%EC%A0%90%28W%2B%29/",
+      "permanent": true
+    },
+    {
+      "source": "/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EC%86%A1%EB%8F%84%EC%A0%90\\(W\\+\\)/",
+      "destination": "https://xn--9l4b2jy4h4wan0chw4b.com/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EC%86%A1%EB%8F%84%EC%A0%90%28W%2B%29/",
+      "permanent": true
+    },
+    {
+      "source": "/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EC%88%98%EC%A7%80%EC%A0%90%28W\\+%29/",
+      "destination": "https://xn--9l4b2jy4h4wan0chw4b.com/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EC%88%98%EC%A7%80%EC%A0%90%28W%2B%29/",
+      "permanent": true
+    },
+    {
+      "source": "/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EC%88%98%EC%A7%80%EC%A0%90\\(W\\+\\)/",
+      "destination": "https://xn--9l4b2jy4h4wan0chw4b.com/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EC%88%98%EC%A7%80%EC%A0%90%28W%2B%29/",
+      "permanent": true
+    },
+    {
+      "source": "/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EC%9D%80%ED%8F%89%EC%A0%90%28W\\+%29/",
+      "destination": "https://xn--9l4b2jy4h4wan0chw4b.com/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EC%9D%80%ED%8F%89%EC%A0%90%28W%2B%29/",
+      "permanent": true
+    },
+    {
+      "source": "/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EC%9D%80%ED%8F%89%EC%A0%90\\(W\\+\\)/",
+      "destination": "https://xn--9l4b2jy4h4wan0chw4b.com/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EC%9D%80%ED%8F%89%EC%A0%90%28W%2B%29/",
+      "permanent": true
+    }
   ]
 }
