@@ -4,7 +4,10 @@
  function load(slot){
   if(!slot.isConnected||slot.dataset.state)return;
   const template=slot.querySelector('template');if(!template)return;
-  slot.dataset.state='loading';slot.append(template.content.cloneNode(true));
+  slot.dataset.state='loading';const content=template.content.cloneNode(true),frame=content.querySelector('iframe');
+  // Match the site's trailing-slash policy before making the first request.
+  if(frame&&/^\/assets\/kakao-directions\/map-[a-f0-9]{16}$/.test(frame.getAttribute('src')||''))frame.setAttribute('src',frame.getAttribute('src')+'/');
+  slot.append(content);
   setTimeout(()=>{if(slot.isConnected&&slot.dataset.state!=='ready'){const p=slot.querySelector('.kd-pending');if(p)p.textContent='지도 로딩이 지연되고 있습니다. 기존 지도 이미지와 아래 주소를 확인해 주세요.';}},15000);
  }
  const observer='IntersectionObserver' in window?new IntersectionObserver(entries=>{for(const e of entries)if(e.isIntersecting){observer.unobserve(e.target);load(e.target);}},{rootMargin:'200px 0px',threshold:0}):null;
