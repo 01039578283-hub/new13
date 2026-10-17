@@ -14,6 +14,11 @@ for(const name of discoveryConfig.generatedFiles){
   if(!/^sitemaps\/[a-z0-9-]+\.xml$/.test(name))throw Error('Unsafe generated path '+name);
   selected.add(name);
 }
+const directionsConfig=JSON.parse(fs.readFileSync(path.join(root,'kakao-directions-data.json'),'utf8'));
+for(const name of Object.keys(directionsConfig.assets)){
+  if(!/^assets\/kakao-directions\/[a-z]+-[a-f0-9]{16}\.(?:html|css|js|json)$/.test(name))throw Error('Unsafe directions output '+name);
+  selected.add(name);
+}
 const digest=bytes=>createHash('sha256').update(bytes).digest('hex');
 function reviewedBytes(bytes,hash,name) {
   if(digest(bytes)===hash)return true;

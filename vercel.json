@@ -1,7 +1,7 @@
 {
   "cleanUrls": true,
   "trailingSlash": true,
-  "buildCommand": "node favicon-build.mjs && node branch-thumbnail-build.mjs && node search-discovery-build.mjs && node content-evidence-build.mjs",
+  "buildCommand": "node favicon-build.mjs && node branch-thumbnail-build.mjs && node search-discovery-build.mjs && node content-evidence-build.mjs && node kakao-directions-build.mjs",
   "outputDirectory": ".public-release",
   "headers": [
     {
@@ -31,6 +31,15 @@
     },
     {
       "source": "/assets/quality/:path*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/assets/kakao-directions/:path*",
       "headers": [
         {
           "key": "Cache-Control",
