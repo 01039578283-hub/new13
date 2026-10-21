@@ -19,6 +19,13 @@ for(const name of Object.keys(directionsConfig.assets)){
   if(!/^assets\/kakao-directions\/[a-z]+-[a-f0-9]{16}\.(?:html|css|js|json)$/.test(name))throw Error('Unsafe directions output '+name);
   selected.add(name);
 }
+const contentConfig=JSON.parse(fs.readFileSync(path.join(root,'search-content-data.json'),'utf8'));
+if(!/^[a-f0-9]{32}\.txt$/.test(contentConfig.indexNow.file)||contentConfig.indexNow.file!==contentConfig.indexNow.key+'.txt')throw Error('Unsafe IndexNow verification output');
+selected.add(contentConfig.indexNow.file);
+for(const [name,content] of Object.entries(contentConfig.generatedAssets)){
+  if(!/^assets\/quality\/[a-f0-9]{20}\.css$/.test(name)||!name.includes(createHash('sha256').update(content).digest('hex').slice(0,20)))throw Error('Unsafe generated content asset '+name);
+  selected.add(name);
+}
 const digest=bytes=>createHash('sha256').update(bytes).digest('hex');
 function reviewedBytes(bytes,hash,name) {
   if(digest(bytes)===hash)return true;
@@ -50,7 +57,10 @@ await Promise.all(Array.from({length:12},async()=>{
     const bytes=await fs.promises.readFile(input);
     if(!reviewedBytes(bytes,hash,name))throw Error('Reviewed file changed; refresh release manifest: '+name);
     await fs.promises.mkdir(path.dirname(dest),{recursive:true});
-    await fs.promises.writeFile(dest,bytes);
+    // Git serves LF text on Linux. Normalize derived text before calculating
+    // asset cache keys so Windows verification reproduces production URLs.
+    const published=/\.(?:html|css|js|json|xml|txt|svg|webmanifest)$/i.test(name)?Buffer.from(bytes.toString('utf8').replaceAll('\r\n','\n')):bytes;
+    await fs.promises.writeFile(dest,published);
   }
 }));
 console.log(JSON.stringify({publicFiles:files.length,sitemapPages:manifest.sitemapPages,output:'.public-release',privateSourcesIncluded:false}));
